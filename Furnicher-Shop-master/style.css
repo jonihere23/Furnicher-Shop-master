@@ -1,0 +1,272 @@
+body {
+  background-color: #eff2f1;
+}
+/* Head */
+
+/* Navbar */
+
+.menu {
+  border-bottom: 4px solid transparent;
+}
+.menu:hover {
+  border-bottom: 4px solid #f9bf29;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+.nav-icon2 {
+  cursor: pointer;
+}
+.active {
+  border-bottom: 4px solid #f9bf29;
+}
+
+.nav-icon:hover {
+  color: #f9bf29 !important;
+}
+.nav-icon2:hover {
+  color: #f9bf29 !important;
+}
+
+
+/* Customer Review */
+.customer-review {
+ margin-top: 150px;
+}
+
+.border {
+  position: static;
+  color: rgb(81, 81, 81);
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.filter {
+  filter: invert(1);
+}
+
+.chat {
+  color: #3cc413;
+  font-size: 70px;
+}
+.star > img {
+height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+.active{
+  border-bottom: none;
+}
+
+.ceo{
+  font-size: 15px;
+}
+/* Head-Seaction */
+.Head-bg {
+  background-color: rgb(59, 93, 80);
+      height: 600px;
+}
+
+.head-text {
+  margin-top: 100px;
+}
+
+.head-text > h1 {
+  font-size: 55px;
+  margin-bottom: 35px;
+}
+
+.head-text > p {
+  margin-bottom: 35px;
+}
+
+.y-btn {
+  background-color: #f9bf29;
+  padding: 10px 25px;
+  font-size: large;
+}
+
+.tr-btn {
+  padding: 10px 25px;
+  color: white;
+  margin-left: 10px;
+  font-size: large;
+  width: 140px;
+}
+
+.y-btn:hover {
+  background-color: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.dots-bg{
+      right: 28px;
+    top: 124px;
+}
+
+.head-img :nth-child(2){
+  position: absolute;
+
+}
+
+/* Products */
+
+.product {
+  margin-top: 100px;
+}
+.product-card {
+  background-color: #eff2f1;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  background-color: #dce5e4;
+}
+
+.product-btn {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 10px 35px;
+  font-weight: 600;
+  font-size: large;
+}
+.product-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* Why Choose Us */
+
+.whychoose{
+    margin-top: 295px;
+}
+.whychoose-p{
+    font-size: 15px;
+}
+.whychoose-img > img{
+    height: 600px;
+    margin-left: 100px;
+}
+
+/* About */
+.about{
+
+margin-top: 200px;
+}
+.about-img{
+    position: relative;
+    
+}
+
+
+.about-img1{
+height: 600px;
+width: 490px;
+position: absolute;
+z-index: 2;
+}
+
+.about-img2{
+
+    height: 235px;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+
+.about-img3{
+position: absolute;
+    height: 460px;
+    width: 390px;
+    z-index: 3;
+    top: 250px;
+    right: 0;
+}
+
+.list-ul > ul{
+  list-style: circle;
+}
+
+
+/* Product Catagaries */
+
+.product-catagaries{
+  margin-top: 400px;
+
+}
+
+.pro-img > img{
+background-color: #DCE5E4;
+    margin-left: -10px;
+    height: 120px;
+    width: 120px;
+
+}
+.pro-btn{
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+/* Blogs */
+
+.blogs{
+  margin-top: 200px;
+}
+
+
+/* Footer */
+.Footer{
+  background-color: white;
+  margin-top: 150px;
+  position: relative;
+}
+.newsleatter{
+  margin-top: 120px;
+}
+.newslatter-btn{
+  background-color: #3B5D50;
+  padding: 8px 30px;
+}
+
+.newslatter-btn:hover{
+  background-color: #3f705e;
+  
+}
+.email-input{
+  padding: 10px 20px;
+}
+.footer-img > img{
+  height: 320px;
+  position: absolute;
+  right: 100px;
+  
+  top: -100px;
+}
+
+.footer-menu{
+  margin-top: 80px;
+  padding-bottom: 30px;
+}
+
+.list-stuyle{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px  ;
+ 
+}
+
+.social-icon{
+  background-color: #DCE5E4 ;
+  padding: 10px;
+}
+
+.bootem-bar {
+  list-style: none;
+
+}
